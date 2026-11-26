@@ -1,19 +1,21 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: 游戏客户端开发知识库
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
-  locale: en-US
+    provider: null
+  locale: zh-CN
   baseUrl: LiWeiYuuu.github.io/my-knowledge-base
+  fonts:
+    fontOrigin: selfHosted
   ignorePatterns:
     - private
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: selfHosted
     cdnCaching: true
     typography:
       header: Schibsted Grotesk
@@ -219,8 +221,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/LiWeiYuuu
     layout:
       position: footer
       priority: 50
